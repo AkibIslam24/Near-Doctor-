@@ -1,0 +1,307 @@
+/* ===== GLOBAL ===== */
+body {
+    background: #F3F6FB;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    max-width: 500px;
+}
+
+/* ===== LOGO ===== */
+.logo-icon {
+    font-size: 26px;
+    color: #ff4d4f;
+}
+
+.logo-text {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #1e293b;
+}
+
+/* ===== SEARCH BAR ===== */
+.search-bar {
+    border-radius: 30px;
+    padding: 12px 18px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    font-size: 14px;
+}
+
+.search-bar:focus {
+    outline: none;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.location {
+    font-size: 13px;
+    color: #64748b;
+}
+
+/* ===== MAIN BUTTONS ===== */
+.emergency-btn,
+.book-btn {
+    border-radius: 18px;
+    padding: 18px 10px;
+    border: none;
+    transition: 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.emergency-btn {
+    background: linear-gradient(135deg, #ff4d4f, #ff7875);
+    color: white;
+}
+
+.book-btn {
+    background: linear-gradient(135deg, #4f46e5, #6366f1);
+    color: white;
+}
+
+.emergency-btn:hover,
+.book-btn:hover {
+    transform: translateY(-4px);
+}
+
+/* ===== SECTION TITLE ===== */
+h5 {
+    font-weight: 600;
+    color: #1e293b;
+}
+
+/* ===== DOCTOR CARD ===== */
+.doctor-card {
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    transition: 0.3s ease;
+}
+
+.doctor-card:hover {
+    transform: translateY(-5px);
+}
+
+/* ===== DOCTOR IMAGE ===== */
+.doctor-card img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 14px;
+    border: 3px solid #f1f5f9;
+}
+
+/* ===== DOCTOR INFO ===== */
+.doctor-name {
+    font-weight: 600;
+    font-size: 15px;
+    color: #0f172a;
+}
+
+.specialty {
+    font-size: 13px;
+    color: #64748b;
+}
+
+.distance {
+    font-size: 12px;
+    color: #94a3b8;
+}
+
+/* ===== STATUS ===== */
+.status {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.online {
+    color: #10b981;
+}
+
+.offline {
+    color: #94a3b8;
+}
+
+/* ===== MOBILE SMOOTH FEEL ===== */
+button, a {
+    cursor: pointer;
+}
+
+/* Emergency Confirm Page */
+.emergency-confirm {
+    max-width: 500px;
+}
+
+/* Consent */
+.consent-box {
+    background: #fff5f5;
+    border-left: 5px solid #ff4d4f;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.important-title {
+    color: #d00000;
+    font-weight: 700;
+}
+
+/* Doctor ETA Card */
+.doctor-eta-card {
+    background: white;
+    padding: 18px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+    cursor: pointer;
+}
+
+.eta-label {
+    font-size: 13px;
+    color: #64748b;
+}
+
+.eta-time {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff4d4f;
+}
+
+.doctor-avatar {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.doctor-name-small {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Fee Card */
+.fee-card {
+    background: white;
+    padding: 18px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+/* Payment Selector */
+.payment-selector {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.payment-option {
+    flex: 1;
+    margin: 0 5px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 12px;
+    background: #f1f5f9;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.payment-option.active {
+    background: #ff4d4f;
+    color: white;
+}
+
+/* Confirm Button */
+.confirm-btn {
+    background: #ff4d4f;
+    color: white;
+    padding: 15px;
+    border-radius: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.confirm-btn:disabled {
+    background: #ccc;
+}
+
+.confirm-btn.success {
+    background: #10b981;
+}
+
+/* Schedule Page */
+.schedule-page { max-width: 500px; }
+
+/* Doctor Mini Card */
+.doctor-mini-card {
+    display:flex;
+    align-items:center;
+    background:white;
+    padding:12px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.05);
+}
+.mini-avatar {
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    margin-right:12px;
+}
+.mini-name { font-weight:600; }
+.mini-specialty { font-size:13px; color:#666; }
+
+/* Date Scroll */
+.date-scroll {
+    display:flex;
+    overflow-x:auto;
+}
+.date-item {
+    min-width:70px;
+    background:white;
+    padding:10px;
+    border-radius:15px;
+    text-align:center;
+    margin-right:10px;
+    cursor:pointer;
+}
+.date-item.active {
+    background:#457B9D;
+    color:white;
+}
+
+/* Time Slots */
+.slot-group {
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:15px;
+}
+.slot-btn {
+    background:white;
+    border:none;
+    padding:8px 12px;
+    border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.05);
+}
+.slot-btn.active {
+    background:#457B9D;
+    color:white;
+}
+
+/* Sticky Footer */
+.schedule-footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    background:white;
+    padding:12px;
+    box-shadow:0 -5px 15px rgba(0,0,0,0.08);
+}
